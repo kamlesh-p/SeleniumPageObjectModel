@@ -5,3 +5,4 @@ test-output/
 .classpath
 /page-object-model/extentReport/*
 /page-object-model/logs/*
+page-object-model/.DS_Store

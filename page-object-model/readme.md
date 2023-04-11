@@ -2,6 +2,9 @@
 
 
 ### Driver management using - WebDriverManager.
+
 ### Console log using LOG4J logs
+ - log file: ./logs/app/log
+ 
 ### Extent HTML report
- - report path: ./extentReeport
+ - report path: ./extentReport

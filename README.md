@@ -1,3 +1,10 @@
-# Selenium Page Objet Model
+# Selenium 3 with Page Object Model design.
 
-Demo project to implement selenium page object model with TestNG and ReportNG
+
+### Driver management using - WebDriverManager.
+
+### Console log using LOG4J logs
+ - log file: ./logs/app/log
+ 
+### Extent HTML report
+ - report path: ./extentReport
