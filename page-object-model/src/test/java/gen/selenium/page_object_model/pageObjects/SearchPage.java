@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 public class SearchPage {
 
 	private WebDriver driver;
@@ -24,6 +27,7 @@ public class SearchPage {
 	}
 
 	public SearchResultPage search(final String text) {
+		log.info("Search for text: " + text);
 		searchBar.clear();
 		searchBar.sendKeys(text);
 		searchBar.sendKeys(Keys.ENTER);
