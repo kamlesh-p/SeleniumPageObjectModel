@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.Status;
+
+import gen.selenium.pom.report.LoggerManager;
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
@@ -27,7 +30,7 @@ public class SearchPage {
 	}
 
 	public SearchResultPage search(final String text) {
-		log.info("Search for text: " + text);
+		LoggerManager.log(Status.INFO, log, "Search for text: " + text);
 		searchBar.clear();
 		searchBar.sendKeys(text);
 		searchBar.sendKeys(Keys.ENTER);
