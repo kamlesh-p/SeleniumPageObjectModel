@@ -3,4 +3,5 @@ test-output/
 .project
 .settings/
 .classpath
-/extentReport/*
+page-object-model/extentReport/*
+page-object-model/logs/*
